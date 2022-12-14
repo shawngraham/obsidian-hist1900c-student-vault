@@ -64,7 +64,7 @@ alias: [{% if shortTitle %}"{{shortTitle | safe}}"{% else %}"{{title | safe}}"{%
 > {{annot.annotatedText | nl2br}}
 {%- endif -%}
 {%- if annot.imageRelativePath %}
-> ![[Agree with nguyen]]
+> ![[{{annot.imageRelativePath}}]]
 {%- endif %}
 {%- if annot.ocrText %}
 > {{annot.ocrText}}
